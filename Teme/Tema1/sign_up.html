@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <link rel="stylesheet" type="text/css" href="sign_up_style.css">
+</head>
+
+<body>
+    <div class="login-container">
+        <span class="title">Sign Up</span>
+        <form action="/submit-your-form-path" method="post">
+            <input type="text" placeholder="Username" name="username" required>
+            <input type="password" placeholder="Password" name="password" required>
+            <input type="password" placeholder="Repeat Password" name="repeat-password" required>
+
+            <label class="checkbox-container">
+                <input type="checkbox" hidden />
+                <span class="checkmark"></span>
+                <span>Stay signed in</span>
+            </label>
+
+            <button type="submit" class="login-button">
+                <img src="arrow_forward.svg" alt="My Happy SVG" />
+            </button>
+        </form>
+        <div class="login-footer">
+            <a href="#">CAN'T SIGN IN?</a>
+            <a href="#">CREATE ACCOUNT</a>
+        </div>
+    </div>
+</body>
+
+</html>

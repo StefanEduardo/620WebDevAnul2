@@ -1,0 +1,135 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+html {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)), url("asets/harta.jpeg");
+}
+
+html::before {
+    background: rgba(0, 0, 0, 0.5);
+    filter: blur(8px);
+    z-index: -1;
+}
+
+.fail-sign-in {
+    width: 700px;
+    height: 100%;
+    text-align: center;
+}
+
+.upperDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    align-items: center;
+    margin-top: 150px;
+}
+
+.lowerDiv {
+    display: flex;
+    justify-content: space-between;
+    height: 235px;
+    margin-top: 85px;
+}
+
+.title {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 750;
+    font-size: 70px;
+
+}
+
+.subtitle {
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 750;
+    font-size: 25px;
+    margin-top: 15px;
+
+}
+
+.username,
+.password,
+.email {
+    background-color: white;
+    box-shadow: 0 0 20px 15px rgb(0 0 0 / 32%);
+    border: none;
+    border-radius: 6%;
+    width: 208px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.username:focus,
+.password:focus,
+.email:focus {
+    outline: none;
+}
+
+.username:hover,
+.password:hover,
+.email:hover {
+    background-color: #bababa6e;
+}
+
+.description1,
+.description2,
+.description3 {
+    margin-top: 6px;
+}
+
+.icon1 {
+    width: 79px;
+    height: 79px;
+    margin-top: -46px;
+}
+
+.icon2 {
+    width: 79px;
+    height: 79px;
+    margin-top: -40px;
+}
+
+.icon3 {
+    width: 79px;
+    height: 79px;
+    margin-top: -20px;
+    margin-bottom: -5px;
+}
+
+.question {
+    text-decoration: none;
+    color: #a5a5a5;
+    font-family: 'Khand', sans-serif;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.description {
+    text-decoration: none;
+    color: #d1d1d1;
+    font-family: 'Khand', sans-serif;
+    font-weight: 800;
+    font-size: small;
+    letter-spacing: -1px;
+}
+
+section {
+    padding-left: 22px;
+    padding-right: 22px;
+
+
+}

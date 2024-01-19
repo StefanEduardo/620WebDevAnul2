@@ -1,0 +1,134 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+html {
+    background-image: url("harta.jpeg");
+}
+
+.login-container {
+    width: 430px;
+    height: 500px;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 15px rgb(0 0 0 / 32%);
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-weight: 750;
+    font-size: xx-large;
+    margin: 20px auto 10px;
+    width: 100%;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #c1c1c161;
+    height: 38px;
+}
+
+input::placeholder {
+    font-family: 'Khand', sans-serif;
+    font-weight: 600;
+    letter-spacing: -1.0px;
+    color: #a8a8a8
+}
+
+input:hover {
+    border: 2px solid #cccccc;
+}
+
+input:focus {
+    outline: none;
+    border: 2px solid #a8a8a8;
+}
+
+.login-button {
+    width: 50px;
+    height: 50px;
+    border-radius: 30%;
+    border: 2px solid #cccccc;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 60px auto 30px;
+}
+
+.login-button:focus {
+    outline: none;
+}
+
+.login-button:hover {
+    background-color: #f5f3f3;
+}
+
+.login-footer {
+    margin-top: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    display: none;
+}
+
+.checkbox-container .checkmark {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: #c1c1c161;
+    border: none;
+    vertical-align: middle;
+}
+
+.checkbox-container input[type="checkbox"]:checked+.checkmark {
+    background: url('checked-icon.svg');
+    background-size: contain;
+    background-color: #a8a8a8;
+}
+
+.checkbox-container span {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 5px;
+}
+
+.login-footer a {
+    text-decoration: none;
+    color: #c1c1c1;
+    margin: 0 10px;
+    font-family: 'Khand', sans-serif;
+    font-size: small;
+    font-weight: 700;
+    letter-spacing: -1.0px;
+}
+
+.login-footer a:hover {
+    color: #a8a8a8;
+}

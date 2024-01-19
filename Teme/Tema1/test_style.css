@@ -1,0 +1,71 @@
+.links {
+    display: grid;
+    gap: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.links a {
+    display: block;
+    font-size: 15px;
+    font-family: 'Khand', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: #fff;
+    color: #c1c1c1;
+}
+
+.links a:hover {
+    color: #2980b9;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 130px;
+    background-color: white;
+}
+
+body {
+    background-image: url("harta.jpeg");
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: ;
+}
+
+.text {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
+    background-color: #c1c1c1;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    width: 300px;
+}
+
+.text-boxes {
+    margin-bottom: 20%;
+    margin-top: 40%;
+}
+
+.stay-signed {
+    margin-left: 43px;
+}
+
+label {
+    font-size: 14px;
+}
